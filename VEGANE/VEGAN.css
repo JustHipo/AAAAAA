@@ -1,0 +1,75 @@
+*{
+    margin: 0px 0px 0px 0px
+    
+}
+
+.navbar {
+    background-color: #85D4B7 !important;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+#navbar {
+    background-color: #85D4B7 !important;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+
+#imaage{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    background-color: #85D4B7 !important;
+    width: 100%;
+    height: 130px;
+    justify-content: space-around;
+}
+
+#aaa{
+    width: 100%;
+    height: auto;
+    background-color: #85D4B7;
+    justify-content: space-around;
+}
+
+#coaching{
+    width: 100%;
+    height: 800px;
+}
+
+#CoachR{
+    padding-top: 200px;
+    padding-right: 70px;
+}
+
+#CoachL{
+    padding-top: 150px;
+    padding-left: 70px;
+
+}
+
+#cafe{
+    width: 100%;
+    height: auto;
+}
+
+#final{
+    
+    width: 100%;
+    height: 500px;
+    background-color: #c0d485;
+}
+
+#LEFT{
+    padding-top: 200px;
+}
+#RIGHT{
+    padding-top: 70px;
+}
+#loog{
+    
+    width: 300px;
+}
