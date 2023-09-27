@@ -20,6 +20,6 @@ from miapp import views
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('vista2/', views.vista2, name="vista2"),
+    path('carreras/', views.carreras, name="carreras"),
     path('admin/', admin.site.urls),
 ]

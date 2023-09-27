@@ -5,26 +5,8 @@ from django.http import HttpResponse
 
 def index(request):
     title = "Inicio"
-    page = "<html>"
-    page+= "<head>"
-    page+= "<title>"+title+"</title>"
-    page+= "</head>"
-    page+= "<body>"
-    page+= "<h1>"+title+"</h1>"
-    page+= "</body>"
-    page+= "<html>"
+    return render(request, 'miapp/index.html')
 
-    return HttpResponse(page)
-
-def vista2(request):
-    title = "Vista 2"
-    page = "<html>"
-    page+= "<head>"
-    page+= "<title>"+title+"</title>"
-    page+= "</head>"
-    page+= "<body>"
-    page+= "<h1>"+title+"</h1>"
-    page+= "</body>"
-    page+= "<html>"
-
-    return HttpResponse(page)
+def carreras(request):
+    title = "carreras"
+    return render(request, 'miapp/carreras.html')
